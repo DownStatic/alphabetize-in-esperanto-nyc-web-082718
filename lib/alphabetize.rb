@@ -1,14 +1,8 @@
 def alphabetize(arr)
  
- esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
- 
- index = 0
- ea_hash = {}
- while index < esperanto_alphabet.length do
-   ea_hash[index] = esperanto_alphabet[index]
-   index = index + 1
- end
- 
- return arr.sort_by{|e| ea_hash}
- 
-end
+sentences_array.sort_by do |sentence|
+    sentence.split("").map do |character|
+      ESPERANTO_ALPHABET.index(character)
+    end
+  end
+end 
