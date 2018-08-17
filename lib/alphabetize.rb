@@ -1,5 +1,7 @@
 def alphabetize(arr)
  
+ ESPERANTO_ALPHABET := "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ 
  index = 0
  ea_hash = {}
  while index < ESPERANTO_ALPHABET.length do
