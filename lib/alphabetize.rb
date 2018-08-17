@@ -3,11 +3,11 @@ def alphabetize(arr)
  
  index = 0
  ea_hash = {}
- while index<ESPERANTO_ALPHABET.length do
+ while index < ESPERANTO_ALPHABET.length do
    ea_hash[index] = ESPERANTO_ALPHABET[index]
    index = index + 1
  end
  
- 
+ arr.sort_by{|
  
 end
