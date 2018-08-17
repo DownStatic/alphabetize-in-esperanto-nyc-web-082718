@@ -1,6 +1,6 @@
 def alphabetize(arr)
  
-esperanto_alphabet = 
+esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
  
 arr.sort_by do |sentence|
     sentence.split("").map do |character|
