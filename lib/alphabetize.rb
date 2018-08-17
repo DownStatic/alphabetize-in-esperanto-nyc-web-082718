@@ -9,6 +9,6 @@ def alphabetize(arr)
    index = index + 1
  end
  
- return arr.sort_by{|e| ea_hash.values}
+ return arr.sort_by{|e| ea_hash}
  
 end
