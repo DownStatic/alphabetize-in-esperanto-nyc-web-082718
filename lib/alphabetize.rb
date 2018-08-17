@@ -1,11 +1,11 @@
 def alphabetize(arr)
  
- ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
  
  index = 0
  ea_hash = {}
- while index < ESPERANTO_ALPHABET.length do
-   ea_hash[index] = ESPERANTO_ALPHABET[index]
+ while index < esperanto_alphabet.length do
+   ea_hash[index] = esperanto_alphabet[index]
    index = index + 1
  end
  
