@@ -8,6 +8,6 @@ def alphabetize(arr)
    index = index + 1
  end
  
- arr.sort_by{|
+ return arr.sort_by{|e| ea_hash.values}
  
 end
